@@ -21,6 +21,7 @@ env:
 jobs:
   unix-default-test:
     strategy:
+      fail-fast: false
       matrix:
         os:
           - ubuntu-latest
